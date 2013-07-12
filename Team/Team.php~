@@ -1,0 +1,12 @@
+<div id="p4" class="Team page">
+<span class="member" data-work="Web Developer" data-photo="karthik.jpg" data-link="https://www.facebook.com/K.V.roxx">Karthik Vijay</span>
+</div>
+<div id="cover"></div>
+<div id="memberInfo">
+<img src="close.jpg" id="close" width="25px" style="float:left">
+<table>
+<tr><td rowspan="5"><img id="memPhoto" src="" width="200px"></td><td><span id="memName"></span></td></tr>
+<tr><td><span id="memWork"></span></td></tr>
+<tr><td><a href="" id="memLink" target="_blank">Visit Facebook Profile</a></td></tr>
+</table>
+</div>

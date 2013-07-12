@@ -1,0 +1,22 @@
+#CSRslider
+{
+margin-left:0px;
+height: 400px;
+width: 1200px;
+overflow: hidden;
+position: absolute;
+}
+#CSRslider img
+{
+position: absolute;
+}
+
+#Bigimg
+{
+	opacity: 0;
+display: none;
+width: 300px;
+height: 300px;
+left: 250px;
+top: 50px;
+}

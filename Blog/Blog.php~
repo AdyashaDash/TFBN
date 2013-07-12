@@ -1,0 +1,9 @@
+<div id="p0" class="page">
+<div id="newsfeed">
+<div class="news news0" data-id="0" id="leftend"><img src="../Blog/Images/black.png" /><a href="" >black</a></div>
+<div class="news news1" data-id="1" id="left"><img src="../Blog/Images/green.jpg" ><a href="" >green</a></div>
+<div class="news news2" data-id="2" id="center"><img src="../Blog/Images/12.png" ><a href="" >blue</a></div>
+<div class="news news3" data-id="3" id="right"><img src="../Blog/Images/13.jpeg" ><a href="" >red</a></div>
+<div class="news news4" data-id="4" id="rightend"><img src="../Blog/Images/14.jpeg" ><a href="" >pink</a></div>
+</div>
+</div>

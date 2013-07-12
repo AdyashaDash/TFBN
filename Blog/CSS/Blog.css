@@ -1,0 +1,62 @@
+#newsfeed
+{
+background-color: wheat;
+position: absolute;
+margin-left: 50px;
+margin-top: 50px;
+width:500px;
+height:300px;
+overflow: hidden;
+}
+.news
+{
+overflow: hidden;
+position: absolute;
+width: 300px;
+height: 200px;
+top: 50px;
+}
+.news img
+{
+left: 0;
+top:0;
+position: absolute;
+width: 300px;
+height: 200px;
+}
+.news0
+{
+left: -525px;
+}
+.news1
+{
+left: -225px;
+}
+.news2
+{
+left: 100px;
+}
+.news3
+{
+left: 425px;
+}
+.news4
+{
+left: 725px;
+}
+
+.news a
+{
+	position: absolute;
+background-color: black;
+opacity: 0.0;
+height: 50px;
+width: 500px;
+top: 250px;
+left: 0;
+z-index: 10;
+color: white;
+font-weight: bold;
+font-size: 150%;
+font-family: "Comic Sans Ms";
+}
