@@ -7,6 +7,8 @@ document.getElementById("memWork").innerHTML=work;
 document.getElementById("memName").innerHTML=nam;
 document.getElementById("memPhoto").src=photo;
 document.getElementById("memLink").href=fblink;
-document.getElementById("memberInfo").style.display="block";
-document.getElementById("cover").style.display="block";
+$("#cover").fadeIn();
+$("#memberInfo").fadeIn();
+//document.getElementById("memberInfo").style.display="block";
+//document.getElementById("cover").style.display="block";
 }

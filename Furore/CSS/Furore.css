@@ -1,20 +1,21 @@
 #CmagazinePhoto
 {
-width: 400px;
-height :400px;
+background-size: cover;
+width: 308.104px;
+height :390px;
 position: absolute;
-margin-left: 10px;
-margin-top: 20px;
-background-color: black;
+margin-left: 30px;
+margin-top: 10px;
+background-color: white;
 }
 #magazineInfo
 {
 margin-left: 420px;
 position: absolute;
-margin-top: 20px;
+margin-top: 10px;
 width: 500px;
 height :400px;
-background-color: blanchedalmond;
+
 }
 #magazineSlider
 {
@@ -24,14 +25,19 @@ position: absolute;
 margin-top: 20px;
 height: 400px;
 width: 200px;
-background-color: aqua;
+
 
 }
 .magazineThumbnail
 {
-margin-left: 20px;
+background-size: contain;
+margin-left: 30px;
 position: absolute;
-width: 160px;
+width: 139px;
 height: 180px;
 background-color: black;
+}
+.magazineHead , .magazineText 
+{
+	display: none;
 }

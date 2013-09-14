@@ -58,7 +58,7 @@ function newscontroller(news) {
 	$(img).animate({
 	width:'500px',
 	height:'300px'
-	});
+	},'fast');
 	}
 	if(news.id=='left')
 	{
@@ -87,7 +87,7 @@ $(newsinfo).animate({opacity:0.0},'fast');
 	$(img).animate({
 	width:'300px',
 	height:'200px'
-	});	
+	},'fast');	
 		
 	$(news).animate({
 	width:'300px',

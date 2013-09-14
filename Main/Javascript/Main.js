@@ -35,7 +35,7 @@ for (var i=0;i<menu.length;++i) {
 menu[i].style.width=(wid-20)/5+'px';
 }
 if (hig>650) {
-	document.getElementById("header").style.height=0.2*hig+10+'px';
+	document.getElementById("header").style.height=0.2*hig+7+'px';
 	document.getElementById("header").style.width=wid+10+'px';
 	document.getElementById("footer").style.height=0.1*hig+'px';
 	document.getElementById("footer").style.width=wid+10+'px';
@@ -43,6 +43,7 @@ if (hig>650) {
 	document.getElementById("social").style.top=(0.1*hig-35)/2+'px';
 	document.getElementById("menu").style.height=0.06*hig+'px';
 	document.getElementById("menu").style.width=wid+10+'px';
+	document.getElementById("menu").style.marginTop=4+'px';
 	document.getElementById("menu").style.lineHeight=0.06*hig+'px';
 	document.getElementById("container").style.top=0.26*hig+10+'px';
 	document.getElementById("container").style.height=hig*0.64+'px';

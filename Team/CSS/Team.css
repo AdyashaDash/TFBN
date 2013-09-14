@@ -1,11 +1,9 @@
 #memberInfo
 {
 position: absolute;
-top: 100px;
-left: 30%;
+top: 10%;
+left: 12%;
 z-index: 90;
-margin-top: 100px;
-margin-left: 100px;
 color: whitesmoke;
 display: none;
 }
@@ -21,10 +19,6 @@ color: whitesmoke;
 {
 cursor: pointer;
 }
-#memberInfo table
-{
-border-spacing: 10px;
-}
 #cover
 {
 width:100%;
@@ -36,4 +30,7 @@ left: -1px;
 opacity: 0.8;
 display: none;
 z-index: 80;
+}
+#memName{
+	font-size: 30px;
 }

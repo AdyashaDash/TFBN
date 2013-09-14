@@ -1,6 +1,22 @@
 body
 {
-overflow: hidden;
+	overflow: hidden;
+}
+#wrapper{
+	display: none;
+}
+#load {
+	width: 500px;
+	height: 0px;
+	overflow: hidden;
+}
+#load img{
+	
+	width: 500px;
+	height: 500px;
+}
+#sketchlogo{
+	position: absolute;
 }
 #container
 {
@@ -29,15 +45,14 @@ position: relative;
 }
 #menu
 {
-	margin-left: -8px;
-	background-color: #bc4829;
+	margin-left: -0.8%;
+	background-color: #414746;
 }
 #menu span
 {	cursor: pointer;
 	display: inline-block;
 	font-size: 16px;
-	font-family: calibri;
-	font-weight: bold;
+	font-family: Verdana;
 	color: white;
 	height: 39.375px;
 text-align: center;
@@ -61,12 +76,12 @@ bottom: 20px;
 }
 #header span
 {
-color: #bc4829;
+color: white;
 float: right;
-font-size: 90%;
+font-size: 60%;
 margin-top: 5px;
-font-family: Calibri;
-font-weight: bold;
+font-family: Verdana;
+cursor: pointer;;
 }
 #social
 {

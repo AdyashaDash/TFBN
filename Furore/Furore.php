@@ -1,5 +1,5 @@
-<div id="p1" class="Furore page">
-<a href="" ><div id="CmagazinePhoto"></div></a>
-<div id="magazineInfo"><h2>Magazine's Description</h2></div>
-<div id="magazineSlider"><div class="magazineThumbnail"></div><div class="magazineThumbnail"></div><div class="magazineThumbnail"></div></div>
+<div id="p1" class="FURORE page">
+<a href="" ><div id="CmagazinePhoto" style="background-image:url('../Furore/Images/31.jpg')"></div></a>
+<div id="magazineInfo"><h2 class='magazineHead' id='currentHead'>ISSUE1</h2><div class='magazineText' id='currentText'>sdgsdgsdgsdgsdgsdgsdgsdgsd</div><h2 class='magazineHead'>ISSUE2</h2><div class='magazineText'>wetrwetwetwetwetwetewtwetetwet</div><h2 class='magazineHead'>ISSUE3</h2><div class='magazineText'>mnmnmnmnmnmnmnmnmnmnmdfnmgngfm</div></div>
+<div id="magazineSlider"><div data-number='0'class="magazineThumbnail" style="background-image:url('../Furore/Images/31.jpg')"></div><div data-number='1' class="magazineThumbnail" style="background-image:url('../Furore/Images/26.jpg')"></div><div data-number='2' class="magazineThumbnail" style="background-image:url('../Furore/Images/30.jpg')"></div></div>
 </div>

@@ -39,6 +39,15 @@ buttons[i].onclick = controller;
 }
 $("#menu span").hover(function () {
 	this.style.color="#414746";
+	this.style.backgroundColor="#FFAC09";
+	this.style.fontWeight = 'bold';
+},function () {
+	this.style.color="white";
+	this.style.backgroundColor="#414746";
+	this.style.fontWeight = '';
+});
+$("#header span a").hover(function () {
+	this.style.color="#FFAC09";
 },function () {
 	this.style.color="white";
 });
@@ -57,8 +66,8 @@ for (var i=0;i<members.length;++i) {
 	members[i].onclick=displayinfo;
 }
 document.getElementById("close").onclick = function () {
-	document.getElementById("memberInfo").style.display="none";
-document.getElementById("cover").style.display="none";
+	$("#cover").fadeOut();
+$("#memberInfo").fadeOut();
 }
 $("#social img").hover(function () {
 	this.src="Images/"+this.alt+"2.jpg";
