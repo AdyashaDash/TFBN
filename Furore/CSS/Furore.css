@@ -1,7 +1,7 @@
 #CmagazinePhoto
 {
 background-size: cover;
-width: 308.104px;
+width: 300px;
 height :390px;
 position: absolute;
 margin-left: 30px;
@@ -15,7 +15,7 @@ position: absolute;
 margin-top: 10px;
 width: 500px;
 height :400px;
-
+text-align: justify;
 }
 #magazineSlider
 {

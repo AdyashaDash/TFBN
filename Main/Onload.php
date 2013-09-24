@@ -1,13 +1,17 @@
 <script>
-/*function codereplace() {
+
+function codereplace() {
 	while (div=divs.pop())
-	{
+	{	
 	code = codes.pop();
+	if(div!='CSRslider'){
 	document.getElementById(div).innerHTML=code;		
+}
 	}
-}*/
+}
+
 window.onload=function () {
-/*<?php
+<?php
 if ($_GET["link"]) {
 	$j = 'p' . $_GET["link"];	
 ?>
@@ -17,13 +21,13 @@ document.getElementById("p0").id=getpage;
 main.id="p0";
 <?php
 }
-?>*/
+?>
 positioning();
 placing();
-//codereplace();
-cSRanimation();
+codereplace();
+//cSRanimation();
 magazinePlacing();
-for (var i=0;i<CSRimages.length;++i) {
+/*for (var i=0;i<CSRimages.length;++i) {
 var image = CSRimages[i];
 if (i!=4) {
 image.onclick = displayBIG;
@@ -31,7 +35,7 @@ image.onclick = displayBIG;
 else {
 	image.onclick = displaySMALL;
 }
-}
+}*/
 var buttons= document.getElementById("menu").getElementsByTagName("span");
 for(var i=0;i<buttons.length;++i)
 {
@@ -65,14 +69,27 @@ members=document.getElementsByClassName("member");
 for (var i=0;i<members.length;++i) {
 	members[i].onclick=displayinfo;
 }
-document.getElementById("close").onclick = function () {
+document.getElementById("cover").onclick = function () {
 	$("#cover").fadeOut();
 $("#memberInfo").fadeOut();
+$("#details_tfbn").fadeOut();
 }
 $("#social img").hover(function () {
 	this.src="Images/"+this.alt+"2.jpg";
 },function () {
 	this.src="Images/"+this.alt+".jpg";
 });
+var Teamheads = document.getElementsByClassName('groupHead');
+for (var i = Teamheads.length - 1; i >= 0; i--) {
+	$(Teamheads[i]).hover(function () {
+	set_timer(this);
+},function () {
+	existing_group(this);
+});
+};
+existing_welcome=document.getElementById('rightOfBlog').innerHTML;
 }
+$(document).keyup(function(e) {
+  if (e.keyCode == 27) { $('#cover').click(); }   // esc
+});
 </script>

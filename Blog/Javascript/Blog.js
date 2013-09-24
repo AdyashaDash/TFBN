@@ -36,16 +36,13 @@ function newsleft() {
 															
 			});
 			}
-
+var existing_welcome;
 function newscontroller(news) {
 
 	if(news.id=='center')
 	{
-	var newsid = news.getAttribute('data-id');
 	var newsinfo = news.firstChild.nextSibling;
 	var hyperlink= newsinfo.firstChild;
-	//hyperlink.innerHTML=newsi[newsid];
-	
 	$(newsinfo).animate({opacity:0.5},'fast');
 	news.style.zIndex='9';
 	var img=news.firstChild;
@@ -59,6 +56,13 @@ function newscontroller(news) {
 	width:'500px',
 	height:'300px'
 	},'fast');
+	var tmp=document.getElementById('newsfeed').getElementsByTagName('div');
+	var newsid=0;
+	while(tmp[newsid].id!=news.id)
+		newsid++
+	var right_of_blog = document.getElementById('rightOfBlog');
+	right_of_blog.innerHTML="<center><h2>The Fishbowl Blog</h2></center><center><h3>"+newsinfo.innerHTML+"</h3></center>";
+	right_of_blog.innerHTML += blog_data[newsid];
 	}
 	if(news.id=='left')
 	{
@@ -95,6 +99,6 @@ $(newsinfo).animate({opacity:0.0},'fast');
 	left:'100px',
 	top:'50px'
 	},'fast');
-	
+	document.getElementById('rightOfBlog').innerHTML=existing_welcome;
 }
 }

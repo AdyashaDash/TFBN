@@ -61,7 +61,7 @@ function cSRanimation() {
 		$(image).animate({
 		top:yAxis+'px',
 		left:xAxis+'px'
-		},1300);
+		},4000);
 }
 },1400);
 

@@ -1,5 +1,5 @@
 body
-{
+{	font-family: Verdana;
 	overflow: hidden;
 }
 #wrapper{
@@ -55,7 +55,7 @@ position: relative;
 	font-family: Verdana;
 	color: white;
 	height: 39.375px;
-text-align: center;
+	text-align: center;
 }
 #footer
 {
@@ -94,4 +94,12 @@ cursor: pointer;;
 padding-right: 5px;
 width:35px;
 height: 35px;
+}
+#details_tfbn{
+	font-family: Verdana;
+	position: relative;
+	left:0%;
+	z-index: 90;
+	color:white;
+	display: none;
 }

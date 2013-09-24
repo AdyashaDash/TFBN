@@ -27,9 +27,11 @@ switch(i) {
 }
 }
 function placing(){
+window.moveTo(0, 0);
+window.resizeTo(screen.width, screen.height);
 wid = $(window).width();
 hig = $(window).height();
-
+hig = hig<678?678:hig;
 var menu=document.getElementById("menu").getElementsByTagName('span');
 for (var i=0;i<menu.length;++i) {
 menu[i].style.width=(wid-20)/5+'px';
@@ -167,4 +169,13 @@ moveleft();
 if(pos=="p4")
 moveup();
  }
-
+function maximize_details_tfbn(source){
+	if(source=="about"){
+		document.getElementById('details_tfbn').innerHTML=("<center><br>An online platform featuring the bimonthly magazine christened 'Furore'. We also run an actively updated blog, take up freelance tasks, and give something back to the society through our Corporate Social Responsibility initiatives. We'd love to nurture talents like a tiger cub!</center>");
+	}
+	else{
+		document.getElementById('details_tfbn').innerHTML=("info@thefishbowlnetwork.com<br>http://www.facebook.com/thefishbowlnetwork<br>https://twitter.com/fishbowlnetwork")
+	}
+	$("#cover").fadeIn();
+	$("#details_tfbn").fadeIn();
+}

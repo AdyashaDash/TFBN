@@ -150,7 +150,12 @@ function setup_bar()
 */
 function progress_bar()
 {
-
+var members = document.getElementsByClassName('member');
+var imgs=[];
+	for(var i=0;i<members.length;++i){
+		imgs[i] = document.createElement('img');
+		imgs[i].src = members[i].getAttribute('data-photo');
+	}
 /* the following document element retreives the number of
 images on the HTML document */
 var image_count = document.getElementsByTagName("img").length;
@@ -285,7 +290,6 @@ function saydone()
 
 // for other browsers that don't have DOM complete variables
 setTimeout('saydone();', wait);
-
-
+	//alert(imgs[i].src);
 //setup_bar(); // call the function setup_bar() first
 progress_bar(); // then call the progress_bar() function
